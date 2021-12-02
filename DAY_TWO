@@ -1,0 +1,47 @@
+TODAY I LEARNED ABOUT RECURSION AND A LOT OF PROGRAMS LIKE:
+
+        i)program to find sum of n natural numbers using recursion.
+        ii)program to find factorial of a number using recursion .
+        iii)program to find fibonacci series up to a given number using recursion .
+        iv)recursive program for tower of hanoi problem(IMPORTANT PROBLEM MUST DO).
+        v)program to find GCD using recursion.
+        vi)program to find all permutations of a string.
+        vii)program to generate all strings of n-bits of binary digits.
+        viii)program to find sum of square of first natural numbers .
+        ix)program to find sum of cubes of first natural numbers .
+        x)program to find sum of first n-odd natural numbers .
+        xi)program to find sum of first n-even natural numbers .
+        xii)print binary of a decimal number using recursion .
+        xiii)program to print n to 1 using recursion .
+        xiv)program to print nth fibonacci number using recursion.
+        xv)program to calculate sum of digits of a number using recursion,
+        xvi)program to check a given string is palindrome or not using recursion .
+        xvii)pattern printing problem using recursion :
+              1) print the following pattern 1
+                                             1 2
+                                             1 2 3
+                                             1 2 3 4 
+                                             1 2 3 4 5
+                                             1 2 3 4 5....n
+                                       here n is entered by the user 
+               2)print the folowing pattern  1 2 3 4 5 
+                                             1 2 3 4 
+                                             1 2 3 
+                                             1 2 
+                                             1
+                                             1 2
+                                             1 2 3 
+                                             1 2 3 4 
+                                             1 2 3 4 5 
+                                             YOU HAVE TO PRINT THIS PATTERN ONLY AND YOU CAN ALSO MAKE IT ACCORDING TO USER ...BY CHANGING VALUES OF N....
+                                             
+                                             this is simple question you will do this easily if you want a hint check my code repo as well....
+                                             
+          
+          
+          AND THEN I LEARN ABOUT "TAIL RECURSION" its an efficient approch for solving problems ::-->in this the recursion our program takes less memory space in main memory..
+          
+          then i done two programs on this :
+          
+          1)factorial using tail recursion.
+          2)and fibonacci using tail recursion .
