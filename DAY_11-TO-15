@@ -1,1 +1,33 @@
 I STARTED BIT MANIPULATION IN VERY VERY DEEP........
+
+
+     LEARN ABOUT BITWISE OPERATORS AND ITS WORKING :--->
+     
+         1) BITWISE AND (&) OPERATOR.
+         2) BITWISE OR  (|) OPERATOR.
+         3) BITWISE NOT (!) OPERATOR.
+         4) BITWISE XOR (^) OPERATOR.
+         
+         program is uploaded as a file ::--->>
+         
+         AFTER THIS I LEARN ABOUT BITWISE LEFT SHIFT AND BITWISE RIGHT SHIFT :->
+         
+            1) LEFT SHIFT ( << ) OPERATOR.
+            2) RIGHT SHIFT ( >> ) OPERATOR .
+            
+      
+      PROGRAMS--->
+      
+      1)  AFTER THAT I LEARN HOW TO COUNT THE SET BITS  :->
+          
+       3 WAYS -
+            1) KNIVE APPROCH
+            2) BRIAN KERNINGHAM METHOD 
+            3) USING INBUILT FXN [__builtin_popcount(n)].
+            
+      2)  CHECK WETHER A NUMBER IS EVEN OR ODD
+      3)  CLACULATING THE POWER OF 2^N .
+      4)  
+         
+         
+         
