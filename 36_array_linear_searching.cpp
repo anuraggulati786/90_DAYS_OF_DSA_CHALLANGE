@@ -24,7 +24,7 @@ int main()
     	cin>>arr[i];
 	}
 	int key;
-	cout<<"eneter the key element that you want to search:"<<endl;
+	cout<<"eneter  the key element that you want to search:"<<endl;
 	cin>>key;
 	
 	linear_search(arr,n,key);
