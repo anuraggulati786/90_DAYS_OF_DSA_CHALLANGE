@@ -13,7 +13,7 @@ int binary_search(int arr[] , int first ,int last ,int mid ,int val )
         }
         else if(arr[mid]==val)
         {
-            cout<<" the numbe r found at the position :"<<mid+1;
+            cout<<" the number found at the position :"<<mid+1;
             break;
         }
         else{
