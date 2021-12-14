@@ -2,7 +2,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int count_set_bit(int n){
+int count_set_bit(int  n){
 	int count=0;
 	
 	while(n!=0){
