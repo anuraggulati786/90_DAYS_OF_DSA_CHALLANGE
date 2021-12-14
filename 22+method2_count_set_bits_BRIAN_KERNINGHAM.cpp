@@ -15,7 +15,7 @@ int count_set_bits(int n)
 int main()
 {
 	int n;
-	cout<<"enter the numbver :"<<endl;
+	cout<<"enter the number :"<<endl;
 	cin>>n;
 	cout<<count_set_bits(n);
 	
