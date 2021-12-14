@@ -1,0 +1,35 @@
+I STARTED ONE OF THE MOST IMPORTANT DATA STRUCTURE NAMED AS 
+                              
+                                          
+                                               *** ARRAY ***
+                                               
+                                               
+                            CLEAR THE BASICS FIRST :
+                            
+                            1) ONE DIMENSION ARRAY
+                            2) 2 DIMENSION ARRAY
+                            3) ADVANTAGES AND DISADVANTAGES OF THE ARRAY 
+                            4) ARRAY VS OTHER DATA STRUCTURE 
+                            5) OPERATIONS IN ARRAY:
+                              
+                                1) TRAVERSAL
+                                2) LINEAR SEARCH
+                                3) INSERION IN ARRAY
+                                4) DELETION IN ARRAY
+                                5) BINARY SEARCH IN ARRAY 
+                                6) MERGING TWO SORTED ARRAY 
+                                7) REVERSING AN ARRAY 
+                                
+                                
+                        # SOME IMPORTANT PROGRAMS TO PRACTICE ON ARRAYS :
+                        
+                          1) DUPLICATE VALUE DELETION FROM AN ARRAY 
+                          2) FINDING FREQUENCY OF ALL THE UNIQUE ELEMENTS IN AN ARRAY 
+                          3) FINDING HOW MANY DISTINCT ELEMENTS IS PRESENT IN AN ARRAY
+                         
+                        # SOME MOST FREQUENT QUESTIONS THAT WERE ASKED IN  INTERVIEWS AS WELL 
+                          1) PROGRAM FOR ARRAY ROTATION LEFT ROTATION CLOCKWISE 
+                             i)  USING TEMP VARIABLE 
+                             ii) USING REVERSAL ALGORITHM 
+                          2) PROGRAM TO CYCLICALLY ROTATE AN ARRAY BY ONE (CLOCKWISE)
+                          3) SEARCH AN ELEMENT IN A SORTED AND ROTATED ARRAY (IMPORTANT QUES AND CONCEPT AS WELL) PREFFER GFG FOR LEARNING AND LEETCODE FOR PRACTICING IT ...
