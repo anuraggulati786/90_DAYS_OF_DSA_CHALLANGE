@@ -10,7 +10,7 @@ using namespace std;
 //     1 2                 ,, 
 //     1 2 3               ,,
 //     1 2 3 4             ,,
-//     1 2 3 4 5      here also we call onr our fxn again 
+//     1 2 3 4 5      here also we call onr our fxn again .
   
 int pattern_print(int n)
 {       
