@@ -7,7 +7,7 @@ int main()
 	int n;
 	cout<<" enter the number :"<<endl;
 	cin>>n;
-	cout<<" sum of the first "<<n<<" odd natural numbers is="<<sum_odd(n)<<endl;
+	cout<<" sum of the first "<<n<<" odd natural number is="<<sum_odd(n)<<endl;
 }
 
 int sum_odd(int n)
