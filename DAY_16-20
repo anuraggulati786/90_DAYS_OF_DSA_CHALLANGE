@@ -63,6 +63,7 @@ I STARTED ONE OF THE MOST IMPORTANT DATA STRUCTURE NAMED AS
                           28) MAXIMUM SUB ARRAY SUM BY BRUTE FORCE .. IN O(N^2) TIME
                           30) MAXIMUM SUB ARRAY SUM BY KADANE'S ALGORITHM ... IN O(N) TIME AND O(1) SPACE MOST OPTIMIZED WAY..
                           31) LONGEST EVEN ODD SUBARRAY .. in time O(n) and space O(1)
+                          32) MAXIMUM CIRCULAR SUBARRAY SUM ( USED BY KADANE'S THEORM ) ....ITS EFFICIENT TO USE ....
                           
                           
                           SEARCH THIS QUESTIONS ON GFG 
