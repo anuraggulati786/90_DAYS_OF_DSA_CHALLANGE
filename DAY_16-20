@@ -65,6 +65,8 @@ I STARTED ONE OF THE MOST IMPORTANT DATA STRUCTURE NAMED AS
                           31) LONGEST EVEN ODD SUBARRAY .. in time O(n) and space O(1)
                           32) MAXIMUM CIRCULAR SUBARRAY SUM ( USED BY KADANE'S THEORM ) ....ITS EFFICIENT TO USE ....
                           33) MINIMUM SUBARRAY SUM .. USE KADANE'S THEOREM ...
+                          34) MAJORITY ELEMENTS IN AN ARRAY BY BRUTE FORCE......O(N^2)
+                          35) MOORES VOTING ALGORITHM FOR FINDING MAJORITY ELEMENTS IN AN ARRAY... IN TIME O(N) ANS SPACE CONSTANT O(1) ... MOST OPTIMIZED WAY SIMPLE 
                           
                           
                           SEARCH THIS QUESTIONS ON GFG 
