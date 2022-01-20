@@ -60,5 +60,5 @@ int main()
 	}
 
 	find(arr, n);
-}
+} 
 
