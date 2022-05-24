@@ -30,6 +30,41 @@ void delete_mid_of_stack(stack<int> &s, int size) {
 }
 
 
+
+
+//*********RECURSIVE CODE ************
+
+
+
+
+
+class Solution
+{
+    public:
+    void helper(stack<int>&s,int count, int n) {
+        // b ase case 
+        if(count == n/2) {
+            s.pop();
+            return;
+        }
+        
+        int num = s.top();
+        s.pop();
+        helper(s,count+1,n);
+        s.push(num);
+        
+        
+    }
+    //Function to delete middle element of a stack.
+    void deleteMid(stack<int>&s, int sizeOfStack)
+    {
+       int count = 0;
+       helper(s, count, sizeOfStack);
+    }
+};
+
+
+
 int main() {
 	
 	stack<int> s ;
