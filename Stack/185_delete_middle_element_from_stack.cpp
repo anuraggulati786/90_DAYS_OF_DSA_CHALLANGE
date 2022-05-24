@@ -16,13 +16,14 @@ void delete_mid_of_stack(stack<int> &s, int size) {
 	
 	while(st.empty() != 1) {
 		s.push(st.top());
+		st.pop();
 	}
 	
 	cout<<"Reversed String using Stack is = "<<endl;
 	
-	while(st.empty() != 1) {
-		cout<<st.top()<<" ";
-		st.pop();
+	while(s.empty() != 1) {
+		cout<<s.top()<<" ";
+		s.pop();
 	}
 	
 	
