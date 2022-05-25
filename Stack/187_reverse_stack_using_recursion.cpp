@@ -1,110 +1,94 @@
-// C++ code to reverse a
-// stack using recursion
-#include<bits/stdc++.h>
+// { Driver Code Starts
+//Initial Template for C++
+
+#include <bits/stdc++.h>
 using namespace std;
 
-// using std::stack for
-// stack implementation
-stack<char> st;
 
-// initializing a string to store
-// result of reversed stack
-string ns;
 
-// Below is a recursive function
-// that inserts an element
-// at the bottom of a stack.
-void insert_at_bottom(char x)
-{
 
-	if(st.size() == 0)
-	st.push(x);
 
-	else
-	{
-		
-		// All items are held in Function Call
-		// Stack until we reach end of the stack
-		// When the stack becomes empty, the
-		// st.size() becomes 0, the above if
-		// part is executed and the item is
-		// inserted at the bottom
-			
-		char a = st.top();
-		st.pop();
-		insert_at_bottom(x);
 
-		// push allthe items held in
-		// Function Call Stack
-		// once the item is inserted
-		// at the bottom
-		st.push(a);
-	}
-}
+//***********without recursion *************//
 
-// Below is the function that
-// reverses the given stack using
-// insert_at_bottom()
-void reverse()
-{
-	if(st.size()>0)
-	{
-		
-		// Hold all items in Function
-		// Call Stack until we
-		// reach end of the stack
-		char x = st.top();
-		st.pop();
-		reverse();
-		
-		// Insert all the items held
-		// in Function Call Stack
-		// one by one from the bottom
-		// to top. Every item is
-		// inserted at the bottom
-		insert_at_bottom(x);
-	}
-}
+// time : O(N)...
+// space : O(N)...
+class Solution{
+public:
+    vector<int> Reverse(stack<int> St){
+        vector<int> rev;
+        while(St.empty() != 1) {
+            rev.push_back(St.top());
+            St.pop();
+        }
+        return rev;
+    }
+};
 
-// Driver Code
-int main()
-{
-	
-	// push elements into
-	// the stack
-	st.push('1');
-	st.push('2');
-	st.push('3');
-	st.push('4');
-	
-	cout<<"Original Stack"<<endl;
-	
-	// print the elements
-	// of original stack
-	cout<<"1"<<" "<<"2"<<" "
-		<<"3"<<" "<<"4"
-		<<endl;
-	
-	// function to reverse
-	// the stack
-	reverse();
-	cout<<"Reversed Stack"
-		<<endl;
-	
-	// storing values of reversed
-	// stack into a string for display
-	while(!st.empty())
-	{
-		char p=st.top();
-		st.pop();
-		ns+=p;
-	}
-	
-	//display of reversed stack
-	cout<<ns[3]<<" "<<ns[2]<<" "
-		<<ns[1]<<" "<<ns[0]<<endl;
-	return 0;
-}
 
-// This code is contributed by Gautam Singh
 
+
+
+
+ // } Driver Code Ends
+//User function Template for C++
+//****************************************USING RECURSION *****************
+// TIME : O(N)>>>>
+// SPACE : O(N)>>>>
+class Solution{
+public:
+    void insert_at_bottom(stack<int> &St,int x){
+        if(St.size()==0){
+            St.push(x);
+        }
+        else{
+            int y=St.top();
+            St.pop();
+            insert_at_bottom(St,x);
+            St.push(y);
+        }
+    }
+    void fun(stack<int> &St){
+        if(St.size()>0){
+            int x=St.top();
+            St.pop();
+            fun(St);
+            insert_at_bottom(St,x);
+        }
+    }
+    vector<int> Reverse(stack<int> St){
+        fun(St);
+        vector<int> ans;
+        while(St.size() > 0){
+            ans.push_back(St.top());
+            St.pop();
+        }
+        reverse(ans.begin(),ans.end());
+        return ans;
+    }
+};
+
+// { Driver Code Starts.
+
+
+int main(){
+    int T;
+    cin>>T;
+    while(T--){
+        int N;
+        cin>>N;
+        stack<int> St;
+        for(int i=0;i<N;i++){
+            int x;
+            cin>>x;
+            St.push(x);
+        }
+        Solution ob;
+        vector<int> ans=ob.Reverse(St);
+        for(int i=0;i<N;i++){
+            cout<<ans[i];
+            if(i!=N-1) cout<<" ";
+        }
+        cout<<endl;
+    }
+}  // } Driver Code Ends
