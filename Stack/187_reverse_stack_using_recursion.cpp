@@ -48,16 +48,16 @@ public:
             St.push(y);
         }
     }
-    void fun(stack<int> &St){
+    void helper(stack<int> &St){
         if(St.size()>0){
             int x=St.top();
             St.pop();
-            fun(St);
+            helper(St);
             insert_at_bottom(St,x);
         }
     }
     vector<int> Reverse(stack<int> St){
-        fun(St);
+        helper(St);
         vector<int> ans;
         while(St.size() > 0){
             ans.push_back(St.top());
